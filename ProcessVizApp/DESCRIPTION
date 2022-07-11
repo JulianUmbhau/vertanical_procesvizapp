@@ -1,0 +1,23 @@
+Package: processViz
+Title: PKG_TITLE
+Version: 1.1.0.0
+Authors@R: person('Markus', 'Freitag', email = 'm.freitag@vertanical.com', role = c('cre', 'aut'))
+Description: PKG_DESC.
+License: MIT + file LICENSE
+Imports: 
+    config (>= 0.3.1),
+    golem (>= 0.3.2),
+    shiny (>= 1.7.1),
+    dplyr,
+    readr,
+    plotly,
+    janitor,
+    echarts4r,
+    bslib,
+    DT,
+    lubridate,
+    shinycssloaders,
+    shinyTime
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.2.0

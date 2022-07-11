@@ -1,0 +1,14 @@
+
+.navbar.navbar-default {
+    background-color: rgba(24, 100, 110, 0.178) !important;
+    -webkit-box-shadow: 0 4px 11x 0 rgba(0, 0, 0, 0.2),
+        0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    -moz-box-shadow: 0 4px 11px 0 rgba(0, 0, 0, 0.2),
+        0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    box-shadow: 0 4px 11px 0 rgba(0, 0, 0, 0.2),
+        0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.navbar:not(.fixed-bottom):not(.navbar-fixed-bottom):not(.navbar-fixed-bottom) {
+    margin-bottom: 40px;
+}
